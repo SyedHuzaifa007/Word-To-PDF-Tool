@@ -20,3 +20,5 @@ def openfile():
 
     button = ttk.Button(win, text="Select", width=30, command=openfile())
     button.grid(row=20, column=5, padx=5, pady=5)
+
+    win.mainloop()
