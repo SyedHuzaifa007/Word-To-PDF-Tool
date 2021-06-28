@@ -17,3 +17,6 @@ def openfile():
 
     label = tk.Label(win, text="Choose A File")
     label.grid(row=10, column=5, padx=5, pady=5)
+
+    button = ttk.Button(win, text="Select", width=30, command=openfile())
+    button.grid(row=20, column=5, padx=5, pady=5)
